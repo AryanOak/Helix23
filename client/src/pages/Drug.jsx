@@ -30,7 +30,7 @@ export default function Drug() {
         />
 
         <textarea
-          placeholder="Paste Data"
+          placeholder="Paste Your Data"
           value={notes}
           onChange={(e) => setNotes(e.target.value)}
           rows={6}
