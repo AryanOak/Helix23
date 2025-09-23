@@ -7,6 +7,7 @@ import Signup from "./pages/Signup";
 import Genedata from "./pages/Genedata";
 import Risk from "./pages/Risk";   // ✅ new
 import Drug from "./pages/Drug";   // ✅ new
+import About from "./pages/About";
 import { AuthProvider } from "./context/AuthContext";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/genedata" element={<Genedata />} />
           <Route path="/risk" element={<Risk />} />     {/* ✅ */}
           <Route path="/drug" element={<Drug />} />     {/* ✅ */}
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
       </Router>

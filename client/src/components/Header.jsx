@@ -14,7 +14,7 @@ export default function Navbar() {
           </div>
       <div className="flex space-x-4">
         <Link to="/">Home</Link>
-        {user && <Link to="/genedata">Analyze</Link>} {/* protect analyze */}
+       {/* protect analyze */}
         <Link to="/about">About</Link>
 
         {!user ? (
